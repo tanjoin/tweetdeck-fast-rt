@@ -13,7 +13,6 @@ function main() {
       }
     });
   });
-  var target = document.getElementById('actions-modal');
   observer.observe(target, { attributes : true, attributeFilter : ['style'] });
 }
 main();
