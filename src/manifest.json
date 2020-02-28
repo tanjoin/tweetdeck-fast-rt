@@ -1,7 +1,13 @@
 {
-  "name": "TweetDeckRT",
-  "version": "0.1.6",
   "manifest_version": 2,
+  "name": "TweetDeckRT",
+  "version": "0.1.8",
+  "description": "リツイートをサクッとします",
+  "icons": {
+    "128": "img/128.png",
+    "48": "img/48.png",
+    "16": "img/16.png"
+  },
   "content_scripts": [
     {
       "matches": [ "https://tweetdeck.twitter.com/" ],
