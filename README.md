@@ -6,6 +6,10 @@
 
 ## CHANGELOG
 
+### Ver. 0.1.12
+
+- manifest v3 に対応
+
 ### Ver. 0.1.6
 
 - ハッシュタグ機能追加
