@@ -1,13 +1,16 @@
 {
   "manifest_version": 3,
   "name": "TweetDeckFastRT",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "TweetDeckのリツイートをサクッとします",
   "icons": {
     "128": "img/128.png",
     "48": "img/48.png",
     "16": "img/16.png"
   },
+  "permissions": [
+    "scripting"
+  ],
   "content_scripts": [
     {
       "matches": [ "https://tweetdeck.twitter.com/" ],

@@ -18,11 +18,4 @@ function autoRT() {
     }
   });
 }
-
-function main() {
-  const autoRTScript = document.createElement('script');
-  autoRTScript.appendChild(document.createTextNode(`(${autoRT.toString()})()`));
-  document.body.appendChild(autoRTScript);
-  console.log('insert auto rt script.');
-}
-main();
+autoRT();
